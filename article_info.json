@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "category": "system_design",
+        "uid": "online-offline-indicator",
+        "title": "Design online/offline indicator",
+        "description": "Any system that is designed can scale in multiple ways, and as with everything in the world, there is no free lunch...",
+        "article": "https://www.google.com",
+        "similar": [
+            "lsm-trees"
+        ]
+    },
+    {
+        "id": "2",
+        "uid": "lsm-trees",
+        "title": "Log Structured Merge tree",
+        "description": "Ever wondered how Cassandra, RocksDB offer such high write throughput, or how systems with high ingestion rates...",
+        "article": "https://www.google.com",
+        "similar": [
+            "lsm-trees"
+        ]
+    }
+]
