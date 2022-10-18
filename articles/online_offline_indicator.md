@@ -37,11 +37,14 @@ And to handle the scale of 1Mn+ users, we can opt for sharding and horizontal sc
 
 But before jumping on these distributed systems jargons, we need to leverage and squeeze the most out of what’s already on the table. One amazing property that every database provides is Connection Pooling.
 ```
-Connection Pooling maintains a pool of connection from client to the database which avoids creating a new TCP connection with the database for every request. This has the following advantage-
+Connection Pooling maintains a pool of connection from client to the database 
+which avoids creating a new TCP connection with the database for every request. 
+This has the following advantage-
 
 1. We save time and resource of 3-way TCP handshake.
 
-2. Cost of CPU reduces and your database does not get overwhelmed, because let’s be honest, creating and maintaing TCP connections is a very costly and intensive CPU operation.
+2. Cost of CPU reduces and your database does not get overwhelmed, 
+because let’s be honest, creating and maintaing TCP connections is a very costly and intensive CPU operation.
 ```
 
 Now that we have developed a system for online/offline indicators, if we just look at the system this can be extended to Failure Detection System, an Orchestrator System, etc.
