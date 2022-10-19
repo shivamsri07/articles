@@ -64,3 +64,5 @@ Presence of bloom filters optimise the read for the keys not present in the tabl
 ## Summary
 
 All the designs has their own fair share of trade-offs. In LSM Trees we take a hit on serving reads but we get very high write throughput. Below is the flow chart showing how the read and write requests are served.
+
+![https://user-images.githubusercontent.com/12581295/196644303-3dfac806-5193-4208-ac57-dedb0af4e53b.png](https://user-images.githubusercontent.com/12581295/196644303-3dfac806-5193-4208-ac57-dedb0af4e53b.png)
