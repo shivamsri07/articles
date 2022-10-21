@@ -8,7 +8,9 @@
         "href": "articles/online-offline-indicator",
         "href_title": "online-offline-indicator",
         "img": "https://user-images.githubusercontent.com/12581295/196560127-37e4ecff-3d18-47c2-b88e-e598ac37d498.png",
-        "img_alt": "online-offline-indicator"
+        "img_alt": "online-offline-indicator",
+        "date": "12th October'2022",
+        "views": "17"
     },
     {
         "id": "2",
@@ -19,6 +21,8 @@
         "href": "articles/lsm-trees",
         "href_title": "lsm-trees",
         "img": "https://user-images.githubusercontent.com/12581295/196652172-904b6a6e-3890-4ac1-9a5d-05981bd9fdfa.png",
-        "img_alt": "lsm-trees"
+        "img_alt": "lsm-trees",
+        "date": "19th October'2022",
+        "views": "10"
     }
 ]
