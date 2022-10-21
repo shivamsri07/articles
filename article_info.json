@@ -5,19 +5,20 @@
         "uid": "online-offline-indicator",
         "title": "Design online/offline indicator",
         "description": "Any system that is designed can scale in multiple ways, and as with everything in the world, there is no free lunch...",
-        "article": "https://www.google.com",
-        "similar": [
-            "lsm-trees"
-        ]
+        "href": "articles/online-offline-indicator",
+        "href_title": "online-offline-indicator",
+        "img": "https://user-images.githubusercontent.com/12581295/196560127-37e4ecff-3d18-47c2-b88e-e598ac37d498.png",
+        "img_alt": "online-offline-indicator"
     },
     {
         "id": "2",
+        "category": "database_internals",
         "uid": "lsm-trees",
         "title": "Log Structured Merge tree",
         "description": "Ever wondered how Cassandra, RocksDB offer such high write throughput, or how systems with high ingestion rates...",
-        "article": "https://www.google.com",
-        "similar": [
-            "lsm-trees"
-        ]
+        "href": "articles/lsm-trees",
+        "href_title": "lsm-trees",
+        "img": "https://user-images.githubusercontent.com/12581295/196652172-904b6a6e-3890-4ac1-9a5d-05981bd9fdfa.png",
+        "img_alt": "lsm-trees"
     }
 ]
