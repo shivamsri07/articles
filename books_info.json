@@ -1,14 +1,14 @@
 [
     {
         "key": "1",
-        "value": "<iframe type='text/html' sandbox='allow-scripts allow-same-origin allow-popups' width='250' height='250' frameBorder='0' src='https://read.amazon.in/kp/card?asin=B06XPJML5D&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_X82SBN0CM896BCCJZSKH&tag=myblog07034-21&hideShare=true'></iframe>"
+        "value": "https://read.amazon.in/kp/card?asin=B06XPJML5D&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_X82SBN0CM896BCCJZSKH&tag=myblog07034-21&hideShare=true"
     },
     {
         "key": "2",
-        "value": "<iframe type='text/html' sandbox='allow-scripts allow-same-origin allow-popups' width='250' height='250' frameBorder='0' src='https://read.amazon.in/kp/card?asin=B08FH8N996&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_JZGYMKQQQ6VP6T1REYHV&tag=myblog07034-21'></iframe>"
+        "value": "https://read.amazon.in/kp/card?asin=B08FH8N996&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_JZGYMKQQQ6VP6T1REYHV&tag=myblog07034-21"
     },
     {
         "key": "3",
-        "value": "<iframe type='text/html' sandbox='allow-scripts allow-same-origin allow-popups' width='250' height='250' frameBorder='0' src='https://read.amazon.in/kp/card?asin=B07XW76VHZ&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_7CM3N400HA61WGC52SYX&tag=myblog07034-21'></iframe>"
+        "value": "https://read.amazon.in/kp/card?asin=B07XW76VHZ&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_7CM3N400HA61WGC52SYX&tag=myblog07034-21"
     }
 ]
