@@ -77,22 +77,28 @@ image_hash_dict = {}
 for name in image:
   print(f'IMAGE :: {name}')
   img = cv2.imread(name)
+
   # resize image and convert to gray scale
   img = cv2.resize(img, (64, 64))
   img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
   img = np.array(img, dtype = np.float32)
+
   # calculate dct of image 
   discrete_cosine_transform = cv2.dct(img)
+
   # to reduce hash length take only 8*8 top-left block 
   # as this block has more information than the rest
   dct_block = discrete_cosine_transform[:8, : 8]
   print(f'DCT_BLOCK :: {dct_block}')
+
   # caclulate mean of dct block excluding first term i.e, dct(0, 0)
   dct_average = (dct_block.mean() * dct_block.size - dct_block[0, 0]) / (dct_block.size - 1)
+
   # convert dct block to binary values based on dct_average
   print(f'DCT_AVG :: {dct_average}',)
   dct_block[dct_block < dct_average] = 0.0
   dct_block[dct_block != 0] = 1.0
+
   # store hash value
   print(f'UPDATED_DCT_BLOCK :: {dct_block}', '\n')
   image_hash_dict[name] = hash_array_to_hash_hex(dct_block.flatten())
