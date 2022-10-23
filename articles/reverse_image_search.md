@@ -27,7 +27,7 @@ Think about `pixels`. All images are made up of pixels. If we can do the hashing
 
 ## Perceptual Hashing or pHash:
 
-![Perceptual hashing](https://www.hackerfactor.com/blog/index.php?/archives/432-Looks-Like-It.html) is a image hashing technique that generate hashes based on the features of the image. It uses the low frequency features (that describes the overall structure of the image) and does a ![Discrete Cosine Transformation](https://en.wikipedia.org/wiki/Discrete_cosine_transform)
+[Perceptual hashing](https://www.hackerfactor.com/blog/index.php?/archives/432-Looks-Like-It.html) is a image hashing technique that generate hashes based on the features of the image. It uses the low frequency features (that describes the overall structure of the image) and does a [Discrete Cosine Transformation](https://en.wikipedia.org/wiki/Discrete_cosine_transform)
 
 When we have pHashes of two image we can find the similarity using some threshold. Enters, `Hamming Distances`. We can decide a threshold value of `Hamming Distance Score` and then use it to find visually similar images.
 
@@ -214,9 +214,9 @@ If we can split the hash in parts of two, and store the hash of original image i
 
 Suppose we have N images in our system, so we need a data structure that will allow us to fetch the `image_id` of M images that may or may not be similar to the uploaded image.
 
-For this use case, we can use ![Multi-Index Hashing](https://www.cs.toronto.edu/~norouzi/research/papers/multi_index_hashing.pdf).
+For this use case, we can use [Multi-Index Hashing](https://www.cs.toronto.edu/~norouzi/research/papers/multi_index_hashing.pdf).
 
-We can prove this by ![pegion-hole principle](https://math.hmc.edu/funfacts/pigeonhole-principle/), that if there are n slots that the hash is split into, and n — 1 character changes to distribute, it is guaranteed that at least one of the slots has no characters changed.
+We can prove this by [pegion-hole principle](https://math.hmc.edu/funfacts/pigeonhole-principle/), that if there are n slots that the hash is split into, and n — 1 character changes to distribute, it is guaranteed that at least one of the slots has no characters changed.
 
 In the above example, we had 8 slots, and 6 modifications to distribute, so using the pegionhole principal we can safely say that 2 slots are not changed.
 
@@ -245,6 +245,6 @@ So this is how canva scaled their content matching system, using `perceptual has
 ## Reference
 
 1. [Canva-Scale Reverse Image Search](https://canvatechblog.com/simple-fast-and-scalable-reverse-image-search-using-perceptual-hashes-and-dynamodb-df3007d19934)
-2. ![Perceptual Hash](https://www.hackerfactor.com/blog/index.php?/archives/432-Looks-Like-It.html)
-3. ![Multi-Index Hashing](http://www.cs.toronto.edu/~norouzi/research/papers/multi_index_hashing.pdf)
+2. [Perceptual Hash](https://www.hackerfactor.com/blog/index.php?/archives/432-Looks-Like-It.html)
+3. [Multi-Index Hashing](http://www.cs.toronto.edu/~norouzi/research/papers/multi_index_hashing.pdf)
 <hr>
