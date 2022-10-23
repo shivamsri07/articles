@@ -29,10 +29,20 @@ When we have pHashes of two image we can find the similarity using some threshol
 Let's get hands-on. I am going to use two images here:
 
 1. Original Tom N' Jerry Image
-![https://user-images.githubusercontent.com/12581295/197401433-bdc908c8-dcd6-4a0f-b929-db500cb45787.png](https://user-images.githubusercontent.com/12581295/197401433-bdc908c8-dcd6-4a0f-b929-db500cb45787.png)
+<!-- ![https://user-images.githubusercontent.com/12581295/197401433-bdc908c8-dcd6-4a0f-b929-db500cb45787.png](https://user-images.githubusercontent.com/12581295/197401433-bdc908c8-dcd6-4a0f-b929-db500cb45787.png) -->
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/12581295/197401433-bdc908c8-dcd6-4a0f-b929-db500cb45787.png"
+    alt="db-data" height=480 width=480/>
+</p>
 
 2. Edited Tom N' Jerry Image (Just added one caption)
-![https://user-images.githubusercontent.com/12581295/197401423-aad546c6-711e-4ebf-9afa-a819faeedfe7.png](https://user-images.githubusercontent.com/12581295/197401423-aad546c6-711e-4ebf-9afa-a819faeedfe7.png)
+<!-- ![https://user-images.githubusercontent.com/12581295/197401423-aad546c6-711e-4ebf-9afa-a819faeedfe7.png](https://user-images.githubusercontent.com/12581295/197401423-aad546c6-711e-4ebf-9afa-a819faeedfe7.png) -->
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/12581295/197401423-aad546c6-711e-4ebf-9afa-a819faeedfe7.png"
+    alt="db-data" height=480 width=480/>
+</p>
 
 Let's see how two algorithms perform:
 <hr>
@@ -240,7 +250,11 @@ Canva used DynamoDB to leverage the `partition key` and `sort key` property. Her
 
 Suppose a user uploads edited image, then a `DynamoDB GetItem` query is fired, which is equal to the number of splits of the p_hash, the result is then consolidated `that involves filtering of results, and removing images with hamming distance higher than the threshold`, and the final result is returned. Let's query the edited image hash, so the flow will look something like-
 
-![https://user-images.githubusercontent.com/12581295/197406267-2ee78bc6-74ab-4bfd-9f01-2150aa4dd81a.png](https://user-images.githubusercontent.com/12581295/197406267-2ee78bc6-74ab-4bfd-9f01-2150aa4dd81a.png)
+<!-- ![https://user-images.githubusercontent.com/12581295/197406267-2ee78bc6-74ab-4bfd-9f01-2150aa4dd81a.png](https://user-images.githubusercontent.com/12581295/197406267-2ee78bc6-74ab-4bfd-9f01-2150aa4dd81a.png) -->
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/12581295/197406267-2ee78bc6-74ab-4bfd-9f01-2150aa4dd81a.png"
+    alt="db-data" height=480 width=480/>
+</p>
 
 <hr>
 
