@@ -207,7 +207,7 @@ similar = ['ea', '91']
 
 If we can split the hash in parts of two, and store the hash of original image in a way that allow us to fetch it's `image_id`, we can calculate the hamming distance and return the results i.e image is similar or not.
 
-Suppose we have N images in our system, so we need a data structure that will allow us to fetch the `image_id` of M images that may or may not be similar to the uploaded image.
+Suppose we have N images in our system, so we need a data structure that will allow us to fetch the `image_id` of M images that may or may not be similar to the uploaded image, but are a candidate.
 
 For this use case, we can use [Multi-Index Hashing](https://www.cs.toronto.edu/~norouzi/research/papers/multi_index_hashing.pdf).
 
