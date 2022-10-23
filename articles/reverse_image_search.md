@@ -216,7 +216,9 @@ We can prove this by [pegion-hole principle](https://math.hmc.edu/funfacts/pigeo
 In the above example, we had 8 slots, and 6 modifications to distribute, so using the pegionhole principal we can safely say that 2 slots are not changed.
 
 ```
-Deciding the split factor and how to filter out the candidate image depends upon the type of hash and type of images uploaded. For simplicity, let us assume that the split factor is 2 and if we get a single match, we say that the image is a candidate image.
+Deciding the split factor and how to filter out the candidate image depends upon 
+the type of hash and type of images uploaded. For simplicity, let us assume that the split factor is 2 
+and if we get a single match, we say that the image is a candidate image.
 ```
 
 ## Storing the data, and query
