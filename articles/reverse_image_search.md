@@ -233,7 +233,7 @@ Canva used DynamoDB to leverage the `partition key` and `sort key` property. Her
 
 <!-- ![https://user-images.githubusercontent.com/12581295/197405543-8d308808-4ed5-430d-989c-3e4a2a5fda52.png](https://user-images.githubusercontent.com/12581295/197405543-8d308808-4ed5-430d-989c-3e4a2a5fda52.png) -->
 <img src="https://user-images.githubusercontent.com/12581295/197405543-8d308808-4ed5-430d-989c-3e4a2a5fda52.png"
-alt="db-data" height=250 width=250/>
+alt="db-data" height=480 width=480/>
 
 
 Suppose a user uploads edited image, then a `DynamoDB GetItem` query is fired, which is equal to the number of splits of the p_hash, the result is then consolidated `that involves filtering of results, and removing images with hamming distance higher than the threshold`, and the final result is returned. Let's query the edited image hash, so the flow will look something like-
