@@ -1,8 +1,3 @@
-Hashing
-Phashing
-
-Multi-index hashing
-
 Canva has a huge media database. And as the files grow in number, there comes a need to tackle the problem of moderation and deduplication at scale. Let's see how they built a content matching system that has two very fundamental yet very important concept at the core:
 
 1. Hashing
