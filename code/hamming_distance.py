@@ -20,4 +20,7 @@ def hamming_distance(val_1, val_2):
     return set_bits
 
 
-print(hamming_distance(2, 3)) # o/p => 1
+hash_1 = 'aad21fghav'
+hash_2 = 'aad31fgha1'
+
+print(hamming_distance(ord(hash_1), ord(hash_2)))
