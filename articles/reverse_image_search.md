@@ -234,7 +234,7 @@ Suppose a user uploads edited image, then a `DynamoDB GetItem` query is fired, w
 
 ## Summary
 
-So this is how canva scaled their content matching system, using `perceptual hash, hamming distance and multi-index hashing`. You can check for further reading materials in the reference section. 
+So this is how canva scaled their content matching system, using `perceptual hash, hamming distance and multi-index hashing`. They did several iterations to figure out the best possible hash split ratio and hamming distance threshold. You can check for further reading materials in the reference section. 
 
 
 ## Reference
