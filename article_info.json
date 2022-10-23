@@ -10,7 +10,7 @@
         "img": "https://user-images.githubusercontent.com/12581295/196560127-37e4ecff-3d18-47c2-b88e-e598ac37d498.png",
         "img_alt": "online-offline-indicator",
         "date": "12th October'2022",
-        "views": "17 views"
+        "views": "41 views"
     },
     {
         "id": "2",
@@ -23,6 +23,19 @@
         "img": "https://user-images.githubusercontent.com/12581295/196652172-904b6a6e-3890-4ac1-9a5d-05981bd9fdfa.png",
         "img_alt": "lsm-trees",
         "date": "19th October'2022",
-        "views": "10 views"
+        "views": "63 views"
+    },
+    {
+        "id": "3",
+        "category": ["system_design", "data_structure"],
+        "uid": "reverse-image-search",
+        "title": "How Canva designed a scalable reverse image search system",
+        "description": "Canva has a huge media database. And as the files grow in number, there comes a need to tackle the problem of moderation and deduplication at scale...",
+        "href": "articles/reverse-image-search",
+        "href_title": "reverse-image-search",
+        "img": "https://user-images.githubusercontent.com/12581295/197408243-7cc27912-ef5b-4906-8700-ef38b321c0fc.png",
+        "img_alt": "reverse-image-search",
+        "date": "23rd October'2022",
+        "views": "12 views"
     }
 ]
