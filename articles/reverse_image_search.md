@@ -244,7 +244,7 @@ So this is how canva scaled their content matching system, using `perceptual has
 
 ## Reference
 
-1. ![Canva-Scale Reverse Image Search](https://canvatechblog.com/simple-fast-and-scalable-reverse-image-search-using-perceptual-hashes-and-dynamodb-df3007d19934)
+1. [Canva-Scale Reverse Image Search](https://canvatechblog.com/simple-fast-and-scalable-reverse-image-search-using-perceptual-hashes-and-dynamodb-df3007d19934)
 2. ![Perceptual Hash](https://www.hackerfactor.com/blog/index.php?/archives/432-Looks-Like-It.html)
 3. ![Multi-Index Hashing](http://www.cs.toronto.edu/~norouzi/research/papers/multi_index_hashing.pdf)
 <hr>
