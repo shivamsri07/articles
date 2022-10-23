@@ -69,5 +69,5 @@ All the designs has their own fair share of trade-offs. In LSM Trees we take a h
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/12581295/196644303-3dfac806-5193-4208-ac57-dedb0af4e53b.png"
-    alt="flow-lsm" height=480 width=480/>
+    alt="flow-lsm" height=270 width=480/>
 </p>
