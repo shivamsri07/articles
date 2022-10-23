@@ -33,7 +33,7 @@ Let's get hands-on. I am going to use two images here:
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/12581295/197401433-bdc908c8-dcd6-4a0f-b929-db500cb45787.png"
-    alt="db-data" height=480 width=480/>
+    alt="original_img" height=480 width=480/>
 </p>
 
 2. Edited Tom N' Jerry Image (Just added one caption)
@@ -41,7 +41,7 @@ Let's get hands-on. I am going to use two images here:
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/12581295/197401423-aad546c6-711e-4ebf-9afa-a819faeedfe7.png"
-    alt="db-data" height=480 width=480/>
+    alt="edited_img" height=480 width=480/>
 </p>
 
 Let's see how two algorithms perform:
@@ -253,7 +253,7 @@ Suppose a user uploads edited image, then a `DynamoDB GetItem` query is fired, w
 <!-- ![https://user-images.githubusercontent.com/12581295/197406267-2ee78bc6-74ab-4bfd-9f01-2150aa4dd81a.png](https://user-images.githubusercontent.com/12581295/197406267-2ee78bc6-74ab-4bfd-9f01-2150aa4dd81a.png) -->
 <p align="center">
     <img src="https://user-images.githubusercontent.com/12581295/197406267-2ee78bc6-74ab-4bfd-9f01-2150aa4dd81a.png"
-    alt="db-data" height=480 width=480/>
+    alt="query-flow" height=480 width=480/>
 </p>
 
 <hr>
