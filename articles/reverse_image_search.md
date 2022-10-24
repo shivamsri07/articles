@@ -76,6 +76,7 @@ import cv2
 import numpy as np
 from scipy import spatial
 
+image = ['/content/original_tom_n_jerry.png', '/content/edited_tom_n_jerry.png']
 
 def hash_array_to_hash_hex(hash_array):
   # convert hash array of 0 or 1 to hash string in hex
