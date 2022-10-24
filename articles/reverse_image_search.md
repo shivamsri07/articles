@@ -64,6 +64,7 @@ for name in image:
 /content/original_tom_n_jerry.png e8f5674cbb98468d917816065799ee1d
 /content/edited_tom_n_jerry.png 9ed7aa4d6123fdac0d9c7850b34e1ef3
 '''
+```
 </details>
 
 <details>
