@@ -47,6 +47,9 @@ Let's get hands-on. I am going to use two images here:
 Let's see how two algorithms perform:
 <hr>
 
+<details>
+<summary>MD5 Hashing Algorithm</summary>
+
 ```python
 image = ['/content/original_tom_n_jerry.png', '/content/edited_tom_n_jerry.png']
 
@@ -61,8 +64,12 @@ for name in image:
 /content/original_tom_n_jerry.png e8f5674cbb98468d917816065799ee1d
 /content/edited_tom_n_jerry.png 9ed7aa4d6123fdac0d9c7850b34e1ef3
 '''
+</details>
 
-# Using Perceptual Hashing Alogrithm
+<details>
+<summary>Perceptual Hashing Algorithm</summary>
+
+```python
 # Refer this for implementation :: https://medium.com/analytics-vidhya/image-search-engine-using-image-hashing-technique-in-python-e6749dacc8f7
 import cv2
 import numpy as np
@@ -196,6 +203,7 @@ for image_name in image_hash_dict.keys():
 /content/edited_tom_n_jerry.png Hamming Distance 0.0 
 '''
 ```
+</details>
 
 Using md5 algorithm produces two very different hash, while using `perceptual hashes` we get a hamming distance score of `0.29` which is very close to zero, and hence we can safely say that images are similar.
 
