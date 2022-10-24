@@ -8,7 +8,7 @@ Canva has a huge media database. And as the files grow in number, there comes a 
 ## Hashing
 Every image has certain set of raw bytes. Hashing provides us with a way to generate a `unique key` that can identify a media file. 
 
-Hashing algorithms like `MD5, SHA` generate a unique hash key. Even if the two images are virtually similar, they can never return the same hash as even the `slightest change of pixel can change the output`.
+Hashing algorithms like `MD5, SHA` generate a unique hash key. Even if the two images are visually similar, they can never return the same hash as even the `slightest change of pixel can change the output`.
 
 With the above mentioned hash algorithm, there is a chance of collision, and that may result in a `false matching`.
 
