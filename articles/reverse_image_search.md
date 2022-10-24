@@ -265,7 +265,13 @@ Suppose a user uploads edited image, then a `DynamoDB GetItem` query is fired, w
     <img src="https://user-images.githubusercontent.com/12581295/197406267-2ee78bc6-74ab-4bfd-9f01-2150aa4dd81a.png"
     alt="query-flow" height=480 width=480/>
 </p>
+Before returning the result, calculate the hamming distance:
 
+```
+hamming_distance(edited_tom_n_jerry, original_tom_n_jerry) ~ 0.29
+Suppose, our threshold is 0.4. 
+So we can conclude that both the image are visually similar
+```
 <hr>
 
 So this is how canva scaled their content matching system, using `perceptual hash, hamming distance and multi-index hashing`. They did several iterations to figure out the best possible hash split ratio and hamming distance threshold. You can check for further reading materials in the reference section. 
