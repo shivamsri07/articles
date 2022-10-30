@@ -43,10 +43,10 @@
         "category": ["system_design", "networking"],
         "uid": "load-balancer",
         "title": "Load Balancers",
-        "description": "Canva has a huge media database. And as the files grow in number, there comes a need to tackle the problem of moderation and deduplication at scale...",
+        "description": "Load Balancers are one of the most critical part of any system that has a huge amount of incoming traffic. It works like a 'traffic cop' and directs the request from client to a backend server...",
         "href": "articles/load-balancer",
         "href_title": "load-balancer",
-        "img": "https://user-images.githubusercontent.com/12581295/197418269-484a3d6d-5b26-4b33-8595-19100467c2d3.png",
+        "img": "https://user-images.githubusercontent.com/12581295/198897218-1eb8e2cc-1b1b-4bd8-b960-f7ff427bb5e7.png",
         "img_alt": "load-balancer",
         "date": "29th October'2022",
         "views": "17 views"
