@@ -37,5 +37,18 @@
         "img_alt": "reverse-image-search",
         "date": "23rd October'2022",
         "views": "153 views"
+    },
+    {
+        "id": "4",
+        "category": ["system_design", "networking"],
+        "uid": "load-balancer",
+        "title": "Load Balancers",
+        "description": "Canva has a huge media database. And as the files grow in number, there comes a need to tackle the problem of moderation and deduplication at scale...",
+        "href": "articles/load-balancer",
+        "href_title": "load-balancer",
+        "img": "https://user-images.githubusercontent.com/12581295/197418269-484a3d6d-5b26-4b33-8595-19100467c2d3.png",
+        "img_alt": "load-balancer",
+        "date": "29th October'2022",
+        "views": "17 views"
     }
 ]
