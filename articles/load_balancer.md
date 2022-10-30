@@ -308,20 +308,33 @@ func main() {
 ```
 </details>
 
+## Working
+
+4 servers running locally on port: 8080, 8081, 8082, 8083.
+Healthchecks done every 1 minute.
+`localhost:8083` goes down.
+
+Load balancer gets a request through netcat.
+Run `nc 127.0.0.1 8000` on the terminal after the load balancer is up and running.
+
+1. Health Checks
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/12581295/198895757-a0c0c4d7-cb54-4aad-ac07-57cdbba32133.png"
+    alt="query-flow" height=480 width=480/>
+</p>
+
+2. Request routing when `localhost:8083` is down
 <p align="center">
     <img src="https://user-images.githubusercontent.com/12581295/198895658-9d3c7450-8df7-434a-ba32-9cf565bc82b9.png"
     alt="query-flow" height=480 width=480/>
 </p>
 
+3. Health check when `localhost:8083` is down
 <p align="center">
     <img src="https://user-images.githubusercontent.com/12581295/198895670-f7880465-337a-432e-b27e-08c480000741.png"
     alt="query-flow" height=480 width=480/>
 </p>
 
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/12581295/198895757-a0c0c4d7-cb54-4aad-ac07-57cdbba32133.png"
-    alt="query-flow" height=480 width=480/>
-</p>
 
 You can find the github repo [here](https://github.com/shivamsri07/loadbalancer).
 
