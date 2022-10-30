@@ -10,7 +10,8 @@
         "img": "https://user-images.githubusercontent.com/12581295/196560127-37e4ecff-3d18-47c2-b88e-e598ac37d498.png",
         "img_alt": "online-offline-indicator",
         "date": "12th October'2022",
-        "views": "50 views"
+        "views": "50 views",
+        "keywords": "system design online-offline indicator, design online offline indicator, indicator chat design"
     },
     {
         "id": "2",
@@ -23,7 +24,8 @@
         "img": "https://user-images.githubusercontent.com/12581295/196652172-904b6a6e-3890-4ac1-9a5d-05981bd9fdfa.png",
         "img_alt": "lsm-trees",
         "date": "19th October'2022",
-        "views": "75 views"
+        "views": "75 views",
+        "keywords": "lsm trees, log structured trees, log trees, log structured merge trees"
     },
     {
         "id": "3",
@@ -36,7 +38,8 @@
         "img": "https://user-images.githubusercontent.com/12581295/197418269-484a3d6d-5b26-4b33-8595-19100467c2d3.png",
         "img_alt": "reverse-image-search",
         "date": "23rd October'2022",
-        "views": "153 views"
+        "views": "153 views",
+        "keywords": "reverse img search, canva reverse image search, perceptual hashing, multi-index hash, system design content matching, phash"
     },
     {
         "id": "4",
@@ -49,6 +52,7 @@
         "img": "https://user-images.githubusercontent.com/12581295/198897218-1eb8e2cc-1b1b-4bd8-b960-f7ff427bb5e7.png",
         "img_alt": "load-balancer",
         "date": "29th October'2022",
-        "views": "17 views"
+        "views": "17 views",
+        "keywords": "load balancers, lb in go, load balancer in go, load-balancer, load balancer implementation"
     }
 ]
