@@ -308,6 +308,21 @@ func main() {
 ```
 </details>
 
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/12581295/198895658-9d3c7450-8df7-434a-ba32-9cf565bc82b9.png"
+    alt="query-flow" height=480 width=480/>
+</p>
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/12581295/198895670-f7880465-337a-432e-b27e-08c480000741.png"
+    alt="query-flow" height=480 width=480/>
+</p>
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/12581295/198895757-a0c0c4d7-cb54-4aad-ac07-57cdbba32133.png"
+    alt="query-flow" height=480 width=480/>
+</p>
+
 You can find the github repo [here](https://github.com/shivamsri07/loadbalancer).
 
 ## Reference
