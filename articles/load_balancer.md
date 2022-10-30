@@ -309,7 +309,7 @@ func main() {
 </details>
 
 ## Working
-
+Consider a scenario-<br>
 4 servers running locally on port: 8080, 8081, 8082, 8083.
 Healthchecks done every 1 minute.
 `localhost:8083` goes down.
