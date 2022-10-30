@@ -310,9 +310,11 @@ func main() {
 
 ## Working
 Consider a scenario-<br>
-4 servers running locally on port: 8080, 8081, 8082, 8083.
-Healthchecks done every 1 minute.
-`localhost:8083` goes down.
+<ul>
+<li>4 servers running locally on port: 8080, 8081, 8082, 8083.</li>
+<li>Healthchecks done every 1 minute.</li>
+<li>localhost:8083 goes down.</li>
+</ul>
 
 Load balancer gets a request through netcat.
 Run `nc 127.0.0.1 8000` on the terminal after the load balancer is up and running.
