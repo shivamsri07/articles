@@ -98,7 +98,7 @@ func (lb *Lb) Forward(req IncomingReq) {
 
 3. Health Checks are done every 1 mins and the status of the backend is updated accordingly
 
-<code class="language-go>
+<code class="language-go">
 
 ```golang
 func (b *Backend) IsAlive() bool {
@@ -135,9 +135,10 @@ func Heartbeat() {
 }
 ```
 </code>
+
 <details>
 <summary>Load Balancer in Go</summary>
-<code class=language-go">
+<code class="language-go">
 
 ```golang
 package main
