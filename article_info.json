@@ -45,7 +45,7 @@
         "id": "4",
         "category": ["system_design", "networking"],
         "uid": "load-balancer",
-        "title": "Load Balancers and it's implementation",
+        "title": "Load Balancers and its implementation",
         "description": "Load Balancers are one of the most critical part of any system that has a huge amount of incoming traffic. It works like a 'traffic cop' and directs the request from client to a backend server...",
         "href": "articles/load-balancer",
         "href_title": "load-balancer",
