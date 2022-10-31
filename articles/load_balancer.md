@@ -356,4 +356,5 @@ Thanks for reading :)
 
 1. [Nginx: Load Balancing](https://www.nginx.com/resources/glossary/load-balancing/)
 2. [Load Balancing Algorithm](https://www.cloudflare.com/learning/performance/types-of-load-balancing-algorithms/)
+3. [Load Balancer Implementation](https://medium.com/@owlwalks/load-balancer-at-your-fingertips-golang-ea23d7aaee82)
 <hr>
