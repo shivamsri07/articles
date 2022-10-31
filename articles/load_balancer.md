@@ -326,19 +326,19 @@ Run `nc 127.0.0.1 8000` on the terminal after the load balancer is up and runnin
 1. Health Checks
 <p align="center">
     <img src="https://user-images.githubusercontent.com/12581295/198985925-6b3a99ea-6589-4c74-a5e2-ff39ccbbd01b.png"
-    alt="query-flow" height=480 width=480/>
+    alt="query-flow" />
 </p>
 
 2. Request routing when `localhost:8083` is down
 <p align="center">
     <img src="https://user-images.githubusercontent.com/12581295/198985927-12ac3151-8632-4c4f-8710-2e458d0cdf53.png"
-    alt="query-flow" height=480 width=480/>
+    alt="query-flow"/>
 </p>
 
 3. Health check when `localhost:8083` is down
 <p align="center">
     <img src="https://user-images.githubusercontent.com/12581295/198985915-8d41fb42-0484-4603-b03a-2b8d4089ae51.png"
-    alt="query-flow" height=480 width=480/>
+    alt="query-flow" />
 </p>
 
 
