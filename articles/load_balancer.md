@@ -25,6 +25,8 @@ Let's look at the implementation of a toy load balancer, written in Go.
 
 1. Every time a requests come from the client, Load Balancer has to accept it.
 
+<code class="language-go">
+
 ```golang
 func (lb *Lb) Run() {
     // Run the load balancer at port :8000
@@ -50,8 +52,12 @@ func (lb *Lb) Run() {
 	}
 }
 ```
+</code>
 
 2. To forward the request, load balancer selects the available backend server (Round Robin in this case), it first tries to connect with it and then forwards the request
+
+<code class="language-go">
+
 ```golang
 func (lb *Lb) Forward(req IncomingReq) {
     // Get a backend server
@@ -88,7 +94,11 @@ func (lb *Lb) Forward(req IncomingReq) {
 	go io.Copy(req.sourceConn, backendConn)
 }
 ```
+</code>
+
 3. Health Checks are done every 1 mins and the status of the backend is updated accordingly
+
+<code class="language-go>
 
 ```golang
 func (b *Backend) IsAlive() bool {
@@ -124,9 +134,10 @@ func Heartbeat() {
 
 }
 ```
-
+</code>
 <details>
 <summary>Load Balancer in Go</summary>
+<code class=language-go">
 
 ```golang
 package main
@@ -310,6 +321,7 @@ func main() {
 	lb.Run()
 }
 ```
+</code>
 </details>
 
 ## Working
@@ -341,9 +353,17 @@ Run `nc 127.0.0.1 8000` on the terminal after the load balancer is up and runnin
     alt="query-flow" />
 </p>
 
+## Improvements:
 
-You can find the github repo [here](https://github.com/shivamsri07/loadbalancer).
+A lot of things can be improved in this. To mention a few of them:-
+1. Add other load balancing algorithm
+2. Support for a CLI
+3. Collect data and store it in a time series DB
+4. Maintain a pool of healthy servers for the load balancer to select from
 
+You can find the source code [here](https://github.com/shivamsri07/loadbalancer).
+
+Thanks for reading :)
 ## Reference
 
 1. [Nginx: Load Balancing](https://www.nginx.com/resources/glossary/load-balancing/)
