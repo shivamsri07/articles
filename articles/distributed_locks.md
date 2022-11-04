@@ -28,7 +28,7 @@ In order to do distributed locking, we can take a similar approach:
     release_lock(resource_name)
 ```
 
-1. Acquire lock on the resource:
+<b>1. Acquire lock on the resource:</b>
 
 To acquire the lock, we will use `setNX` in redis. This set key to hold string value if key does not exist. When key already holds a value, no operation is performed
 
@@ -53,7 +53,7 @@ func AcquireLock(resource_name, client_id string, ttl int) int {
 ```
 
 
-2. Release the lock
+<b>2. Release the lock</b>
 
 This is fairly simple. We need to find who currently holds the lock, and then delete it. 
 `The only caveat is this should be wrapped in one transaction`. 
