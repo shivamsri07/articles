@@ -14,7 +14,7 @@ We can use Redis, as we get all of these things out of the box. So we don't have
 
 Think how do we use mutex and semaphores to prevent critical section of our codes:
 
-```
+```go
     mutex.Lock()
         critical_section
     mutex.Unlock()
@@ -22,7 +22,7 @@ Think how do we use mutex and semaphores to prevent critical section of our code
 
 In order to do distributed locking, we can take a similar approach:
 
-```
+```go
     acquire_lock(resource_name)
         critical_section
     release_lock(resource_name)
