@@ -81,11 +81,13 @@ func ReleaseLock(resource_name, client_id string) bool {
 }
 ```
 
+You can find the output of a small prototype that used distributed locks for synchronization of threads (consumers)
+
 <details>
 <summary>Output</summary>
 <p align="center">
     <img src="https://user-images.githubusercontent.com/12581295/199495861-7f24ee9b-a7cf-4b9a-ba45-f071c17dc6bf.png"
-    alt="distributed-locks-output" />
+    alt="distributed-locks-output"/>
 </p>
 </details>
 
