@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "category": "system_design",
+        "category": ["system design"],
         "uid": "online-offline-indicator",
         "title": "Design online/offline indicator",
         "description": "Any system that is designed can scale in multiple ways, and as with everything in the world, there is no free lunch...",
@@ -10,12 +10,12 @@
         "img": "https://user-images.githubusercontent.com/12581295/196560127-37e4ecff-3d18-47c2-b88e-e598ac37d498.png",
         "img_alt": "online-offline-indicator",
         "date": "12th October'2022",
-        "views": "50 views",
+        "views": "60 views",
         "keywords": "system design online-offline indicator, design online offline indicator, indicator chat design"
     },
     {
         "id": "2",
-        "category": "database_internals",
+        "category": ["database internals"],
         "uid": "lsm-trees",
         "title": "Log Structured Merge tree",
         "description": "Ever wondered how Cassandra, RocksDB offer such high write throughput, or how systems with high ingestion rates...",
@@ -24,12 +24,12 @@
         "img": "https://user-images.githubusercontent.com/12581295/196652172-904b6a6e-3890-4ac1-9a5d-05981bd9fdfa.png",
         "img_alt": "lsm-trees",
         "date": "19th October'2022",
-        "views": "75 views",
+        "views": "120 views",
         "keywords": "lsm trees, log structured trees, log trees, log structured merge trees"
     },
     {
         "id": "3",
-        "category": ["system_design", "data_structure"],
+        "category": ["system design", "data structure"],
         "uid": "reverse-image-search",
         "title": "How Canva designed a scalable reverse image search system",
         "description": "Canva has a huge media database. And as the files grow in number, there comes a need to tackle the problem of moderation and deduplication at scale...",
@@ -38,12 +38,12 @@
         "img": "https://user-images.githubusercontent.com/12581295/197418269-484a3d6d-5b26-4b33-8595-19100467c2d3.png",
         "img_alt": "reverse-image-search",
         "date": "23rd October'2022",
-        "views": "153 views",
+        "views": "225 views",
         "keywords": "reverse img search, canva reverse image search, perceptual hashing, multi-index hash, system design content matching, phash"
     },
     {
         "id": "4",
-        "category": ["system_design", "networking"],
+        "category": ["system design", "networking"],
         "uid": "load-balancer",
         "title": "Load Balancers and its implementation",
         "description": "Load Balancers are one of the most critical part of any system that has a huge amount of incoming traffic. It works like a 'traffic cop' and directs the request from client to a backend server...",
@@ -52,7 +52,21 @@
         "img": "https://user-images.githubusercontent.com/12581295/198897728-f147240e-440b-43e7-bb28-d2866951995e.png",
         "img_alt": "load-balancer",
         "date": "29th October'2022",
-        "views": "17 views",
+        "views": "250 views",
         "keywords": "load balancers, lb in go, load balancer in go, load-balancer, load balancer implementation"
+    },
+    {
+        "id": "5",
+        "category": ["system design", "distributed systems"],
+        "uid": "distributed-locks",
+        "title": "How is distributed locking done?",
+        "description": "Load Balancers are one of the most critical part of any system that has a huge amount of incoming traffic. It works like a 'traffic cop' and directs the request from client to a backend server...",
+        "href": "articles/distributed-locks",
+        "href_title": "distributed-locks",
+        "img": "https://user-images.githubusercontent.com/12581295/199940581-93101188-d4bc-4dd6-9cee-ad2b6fbca5f0.png",
+        "img_alt": "distributed-locks",
+        "date": "4th November'2022",
+        "views": "10 views",
+        "keywords": "distributed locks, locks in distributed systems, distributed locks using redis, distributed locks implementation in go"
     }
 ]
