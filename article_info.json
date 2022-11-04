@@ -60,7 +60,7 @@
         "category": ["system design", "distributed systems"],
         "uid": "distributed-locks",
         "title": "How is distributed locking done?",
-        "description": "Load Balancers are one of the most critical part of any system that has a huge amount of incoming traffic. It works like a 'traffic cop' and directs the request from client to a backend server...",
+        "description": "Distributed locks are very crucial when you want you have different processes working with a shared resources in a mutually exclusive way. Locks as we know are very crucial to have a synchronization between different processes...",
         "href": "articles/distributed-locks",
         "href_title": "distributed-locks",
         "img": "https://user-images.githubusercontent.com/12581295/199940581-93101188-d4bc-4dd6-9cee-ad2b6fbca5f0.png",
