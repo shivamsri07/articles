@@ -93,9 +93,9 @@ func ReleaseLock(resource_name, client_id string) bool {
 
 We are using a single redis instance, that can become a SPoF. In order to avoid that, we can use multiple instances. You can read more about it in [Redlock Algorithm](https://redis.io/docs/reference/patterns/distributed-locks/#the-redlock-algorithm:~:text=have%20such%20guarantees.-,The%20Redlock%20Algorithm,-In%20the%20distributed)
 
-You can find the problem statement [here].(https://github.com/arpitbbhayani/system-design-questions/blob/master/queue-consumers.md)
+You can find the problem statement [here](https://github.com/arpitbbhayani/system-design-questions/blob/master/queue-consumers.md).
 
-You can find the source code [here].(https://github.com/shivamsri07/distributed-locking)
+You can find the source code [here](https://github.com/shivamsri07/distributed-locking).
 
 ## References
 1. [Redlock Algorithm](https://redis.io/docs/manual/patterns/distributed-locks/)
