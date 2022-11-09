@@ -1,18 +1,14 @@
 [
     {
-        "key": "1",
-        "value": "https://read.amazon.in/kp/card?asin=B06XPJML5D&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_X82SBN0CM896BCCJZSKH&tag=myblog07034-21&hideShare=true"
+        "key": "Designing Data Intensive Application",
+        "value": "https://amzn.to/3Egcyhc"
     },
     {
-        "key": "2",
-        "value": "https://read.amazon.in/kp/card?asin=B08FH8N996&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_JZGYMKQQQ6VP6T1REYHV&tag=myblog07034-21"
+        "key": "Introduction to Algorithm (CLRS)",
+        "value": "https://amzn.to/3FYhVmt"
     },
     {
-        "key": "3",
-        "value": "https://read.amazon.in/kp/card?asin=B07XW76VHZ&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_7CM3N400HA61WGC52SYX&tag=myblog07034-21"
-    },
-    {
-        "key": "4",
-        "value": "https://read.amazon.in/kp/card?asin=B00U6SFUSS&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_WD01CX462NSS2K40FW3Q&tag=myblog07034-21"
+        "key": "Database Internals by Alex Petrov",
+        "value": "https://amzn.to/3NU2gX7"
     }
 ]
