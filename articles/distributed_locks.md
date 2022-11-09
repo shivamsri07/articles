@@ -1,4 +1,4 @@
-Distributed locks are very crucial when you want you have different processes working with a shared resources in a mutually exclusive way. Locks as we know are very crucial to have a synchronization between different processes.
+Distributed locks are very crucial when you want to have different processes working with a shared resources in a mutually exclusive way. Locks as we know are very crucial to have a synchronization between different processes.
 
 Let's understand this with an example. Suppose there's a queue and multiple clients (consumers) are trying to read the messages from it. In order to ensure that one message is consumed by only one client at a time, clients would require to take a lock on the queue, process the message and then release the lock. We do locking for the purpose of `efficiency and correctness`
 
