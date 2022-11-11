@@ -10,7 +10,7 @@
         "img": "https://user-images.githubusercontent.com/12581295/196560127-37e4ecff-3d18-47c2-b88e-e598ac37d498.png",
         "img_alt": "online-offline-indicator",
         "date": "12th October'2022",
-        "views": "60 views",
+        "views": "80 views",
         "keywords": "system design online-offline indicator, design online offline indicator, indicator chat design"
     },
     {
@@ -38,7 +38,7 @@
         "img": "https://user-images.githubusercontent.com/12581295/197418269-484a3d6d-5b26-4b33-8595-19100467c2d3.png",
         "img_alt": "reverse-image-search",
         "date": "23rd October'2022",
-        "views": "225 views",
+        "views": "239 views",
         "keywords": "reverse img search, canva reverse image search, perceptual hashing, multi-index hash, system design content matching, phash"
     },
     {
@@ -66,7 +66,7 @@
         "img": "https://user-images.githubusercontent.com/12581295/199940581-93101188-d4bc-4dd6-9cee-ad2b6fbca5f0.png",
         "img_alt": "distributed-locks",
         "date": "4th November'2022",
-        "views": "10 views",
+        "views": "160 views",
         "keywords": "distributed locks, locks in distributed systems, distributed locks using redis, distributed locks implementation in go"
     }
 ]
