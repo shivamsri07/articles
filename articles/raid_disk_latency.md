@@ -2,9 +2,9 @@ Discord handles 4 billion messages per day. At such a huge scale they need to su
 <hr>
 
 ## Problems
-The main problem they faced was the disk latency. Disk I/Os were taking few milliseconds. Why was it happening?Below a certain query rate, disk latency is not noticeable as storage engine does a great job at handling requests in parallel. But there is a threshold to number of requests that can be handled in parallel. Beyond that, certain disk operations will have to wait before the outstanding operations complete. 
+The main problem they faced was the disk latency. Disk I/Os were taking few milliseconds. Why was it happening?Below a certain query rate, disk latency is not noticeable as storage engine does a great job at handling requests in parallel. But there is a `threshold to number of requests that can be handled in parallel`. Beyond that, certain disk operations will have to wait before the outstanding operations complete. 
 
-At such a high scale, this could lead to issues; one of them being the increase in latency, another one being that pending disk operations queue can experience backpressure leading to the requests being timed-out.
+At such a high scale, this could lead to issues; one of them being the increase in latency, another one being that `pending disk operations queue can experience backpressure` leading to the requests being timed-out.
 
 ## Storage Architecture
 Discord uses [Persistent disk](https://cloud.google.com/persistent-disk#documentation) offered by GCP, which can be attached/detached from the servers on the fly, can be resized without downtime, offers replication etc. They are realiable, but they are disks that are not attached directly to the server and are connected over the network. This could add up to the latency by a few milliseconds.
