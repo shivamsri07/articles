@@ -73,7 +73,7 @@
         "id": "6",
         "category": ["system design", "distributed systems", "storage management"],
         "uid": "raid-disk-latency",
-        "title": "How Discord optimises network disk for low latency",
+        "title": "How Discord optimises network disk for low latency?",
         "description": "Discord handles 4 billion messages per day. At such a huge scale they need to support a high frequencies of queries from a million of users. The main problem they faced was the disk latency. Disk I/Os were taking few milliseconds...",
         "href": "articles/raid-disk-latency",
         "href_title": "raid-disk-latency",
