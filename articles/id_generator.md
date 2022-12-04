@@ -70,7 +70,7 @@ CREATE TABLE IF NOT EXISTS "user_id_1-500".photos (
   )
 ```
 
-Now we know that indexes in SQL are sorted by default. If we create an index on `userid and id`, we can leverage range queries and those queries will be very optimised. On top of it we can introduce caching to optimise the /GET calls further. 
+Now we know that indexes in SQL are sorted by default. If we create an index on `userid and id`, we can leverage range queries for a particular user to get the photos and those queries will be very optimised. On top of it we can introduce caching to optimise the /GET calls further. 
 
 ## Output
 
