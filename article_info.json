@@ -91,7 +91,7 @@
         "description": "Discord handles 4 billion messages per day. At such a huge scale they need to support a high frequencies of queries from a million of users. The main problem they faced was the disk latency. Disk I/Os were taking few milliseconds...",
         "href": "articles/id-generator",
         "href_title": "id-generator",
-        "img": "https://user-images.githubusercontent.com/12581295/203418324-c667ca99-d3d1-4557-9eec-f41c5976369b.png",
+        "img": "https://user-images.githubusercontent.com/12581295/205506870-b95799e3-9404-49fd-a1c6-cc20a51f9456.png",
         "img_alt": "id-generator",
         "date": "2nd December'2022",
         "views": "30 views",
