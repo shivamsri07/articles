@@ -80,7 +80,21 @@
         "img": "https://user-images.githubusercontent.com/12581295/203418324-c667ca99-d3d1-4557-9eec-f41c5976369b.png",
         "img_alt": "raid-disk-latency",
         "date": "22nd November'2022",
-        "views": "30 views",
+        "views": "161 views",
         "keywords": "discord low latency disks, raid levels, raid configuration in system design, raid levels to optimise read operation on disk"
+    },
+    {
+        "id": "7",
+        "category": ["system design", "database"],
+        "uid": "id-generator",
+        "title": "How Instagram generates ID at scale?",
+        "description": "Discord handles 4 billion messages per day. At such a huge scale they need to support a high frequencies of queries from a million of users. The main problem they faced was the disk latency. Disk I/Os were taking few milliseconds...",
+        "href": "articles/id-generator",
+        "href_title": "id-generator",
+        "img": "https://user-images.githubusercontent.com/12581295/203418324-c667ca99-d3d1-4557-9eec-f41c5976369b.png",
+        "img_alt": "id-generator",
+        "date": "2nd December'2022",
+        "views": "30 views",
+        "keywords": "distributed id generators, instagram id generation, id generation at scale"
     }
 ]
