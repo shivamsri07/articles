@@ -88,7 +88,7 @@
         "category": ["system design", "database"],
         "uid": "id-generator",
         "title": "How Instagram generates ID at scale?",
-        "description": "Discord handles 4 billion messages per day. At such a huge scale they need to support a high frequencies of queries from a million of users. The main problem they faced was the disk latency. Disk I/Os were taking few milliseconds...",
+        "description": "IDs are very critical part in any system. There has to be a way to uniquely indentify an object be it a user, photos, comment etc. Most commonly used ids are auto-incrementing bigints, that are 64 bits and range from 2 ^ (-63) to 2 ^ (63-1), which is a gigantic limit...",
         "href": "articles/id-generator",
         "href_title": "id-generator",
         "img": "https://user-images.githubusercontent.com/12581295/205506870-b95799e3-9404-49fd-a1c6-cc20a51f9456.png",
