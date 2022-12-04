@@ -22,7 +22,7 @@ They also looked at UUIDs, but they require more space (around 96 bits or higher
 To make the ids sortable by time, it is intuitive to use the epoch timestamps in the id. They used this to populate the first 41 bits (which gave them 41 years of ids with custom epoch).
     `id |= (now_millis - our_epoch) << (64-41)`
 
-Here, `our_epoch` is the custom epoch equal to `1293820200` ( Jan 1st, 2011 )
+Here, `our_epoch` is the custom epoch equal to `1314220021721`.
 
 ### Shard id
 
