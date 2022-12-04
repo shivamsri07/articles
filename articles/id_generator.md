@@ -1,5 +1,5 @@
 IDs are very critical part in any system. There has to be a way to uniquely indentify an object be it a user, photos, comment etc. Most commonly used ids are auto-incrementing bigints, that are 64 bits and range from 
-2 ^ (-63) to 2 ^ (63-1), which is a gigantic limit. 
+2 ^ (-63) to 2 ^ (63)-1, which is a gigantic limit. 
 
 But what if you are in a distributed setup, and you have a sharded database. Auto-incrementing integers won't work because that will lead to duplicate ids being assigned to different entities. How can we uniquely identify objects in our system in a distributed setup? This is the problem that instgram solved beautifully...
 
