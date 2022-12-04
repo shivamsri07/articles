@@ -31,7 +31,7 @@
         "id": "3",
         "category": ["system design", "data structure"],
         "uid": "reverse-image-search",
-        "title": "How Canva designed a scalable reverse image search system",
+        "title": "How Canva designed a scalable reverse image search system?",
         "description": "Canva has a huge media database. And as the files grow in number, there comes a need to tackle the problem of moderation and deduplication at scale...",
         "href": "articles/reverse-image-search",
         "href_title": "reverse-image-search",
